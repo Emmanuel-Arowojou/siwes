@@ -1,0 +1,50 @@
+body {
+    max-width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(1, 61, 41);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 1,5rem;
+}
